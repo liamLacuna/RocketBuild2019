@@ -1,0 +1,26 @@
+.nav-bar {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    z-index: 2;
+    color: #DBDBDB;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
