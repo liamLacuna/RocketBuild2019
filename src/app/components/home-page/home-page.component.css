@@ -5,13 +5,11 @@
 }
 
 .welcome {
-    background: url('../../../assets/images/homepage1.jpg');
+    position: relative;
+    background: url('../../../assets/images/homepage1.jpg') no-repeat center center fixed;
     filter: blur(4px);
     -webkit-filter: blur(4px);
     height: 50em;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    min-width: 100%;
     background-size: cover;
-    position: relative;
 }
