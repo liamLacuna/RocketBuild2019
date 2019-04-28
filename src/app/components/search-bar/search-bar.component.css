@@ -6,10 +6,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 80%;
+    width: 100%;
     padding: 20px;
     text-align: center;
-    height: 50%;
+    height: 100%;
 }
 
 .welcome-title {
@@ -40,4 +40,8 @@ input {
     width: 10%;
     background: #F29F2F;
     border: none;
+}
+
+agm-map {
+    height: 300px;
 }

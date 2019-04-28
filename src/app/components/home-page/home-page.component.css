@@ -9,6 +9,7 @@
     filter: blur(4px);
     -webkit-filter: blur(4px);
     height: 50em;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
