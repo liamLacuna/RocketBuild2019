@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HostingComponent } from './components/hosting/hosting.component';
 
 const routes: Routes = [
-  {path: 'Become a Host' , component: HostingComponent },
+  {path: 'BecomeAHost' , component: HostingComponent },
 ];
 
 @NgModule({
