@@ -1,16 +1,18 @@
 <div class="container">
   <div class="welcome-title">
-    <p>TITLE</p>
+    <p>Homie [Home Me Solution]</p>
   </div>
   <div class="text-holder">
-    <input type="text" (keydown.enter)="$event.preventDefault()" placeholder="Search for your house" autocorrect="off" autocapitalize="off" spellcheck="off" type="text" #search>
+    <input type="text" (keydown.enter)="$event.preventDefault()" placeholder="Search the houses near you" autocorrect="off" autocapitalize="off" spellcheck="off" type="text" #search>
     <button class="submit"><a href="#">Search</a></button>
   </div>
   
-  <agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoom">
-    <agm-marker [latitude]="latitude" [longitude]="longitude" [markerDraggable]="true"
-      (dragEnd)="markerDragEnd($event)"></agm-marker>
-  </agm-map>
+  <div id="map">
+    <agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoom" [styles]="styles">
+      <agm-marker [latitude]="latitude" [longitude]="longitude" [markerDraggable]="true"
+        (dragEnd)="markerDragEnd($event)"></agm-marker>
+    </agm-map>
+  </div>
 </div>
 
 <!-- class="form-group" -->

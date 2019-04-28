@@ -4,7 +4,7 @@
     font-weight: bold;
     position: absolute;
     opacity: 0.6;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -17,11 +17,12 @@
 .welcome-title {
     padding: 20px;
     text-align: center;
+    font-size: 30px;
 }
 
 .text-holder {
     border: none;
-    height: 20%;
+    height: 10%;
 }
 
 input {
