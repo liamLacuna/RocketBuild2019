@@ -9,6 +9,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { HorizontalScrollComponent } from './components/horizontal-scroll/horizontal-scroll.component';
+import { HostingComponent } from './components/hosting/hosting.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HorizontalScrollComponent } from './components/horizontal-scroll/horizo
     HomePageComponent,
     NavigationComponent,
     SearchBarComponent,
-    HorizontalScrollComponent
+    HorizontalScrollComponent,
+    HostingComponent
   ],
   imports: [
     BrowserModule,
