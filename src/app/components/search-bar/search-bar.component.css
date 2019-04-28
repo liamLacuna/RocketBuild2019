@@ -1,8 +1,10 @@
 .container {
     color: white;
+    filter: alpha(opacity=50);
     font-weight: bold;
     position: absolute;
-    top: 50%;
+    opacity: 0.6;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -36,6 +38,7 @@ input {
     border-radius: 0px 25px 25px 0px;
     -moz-border-radius: 0px 25px 25px 0px;
     -webkit-border-radius: 0px 25px 25px 0px;
+    opacity: 0.9;
     height: 80%;
     width: 10%;
     background: #F29F2F;
