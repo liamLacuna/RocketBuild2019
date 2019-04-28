@@ -1,21 +1,29 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AgmCoreModule } from '@agm/core';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { HorizontalScrollComponent } from './components/horizontal-scroll/horizontal-scroll.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     NavigationComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    HorizontalScrollComponent
   ],
   imports: [
     BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyD-HUSBwNtWVDsEGBDZLnTyWZRhiwWOMr0',
+      libraries: ['places']
+    }),
     AppRoutingModule
   ],
   providers: [],
